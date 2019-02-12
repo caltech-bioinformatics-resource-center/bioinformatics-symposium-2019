@@ -1,6 +1,7 @@
+wget ftp://ftp.ensembl.org/pub/current_fasta/homo_sapiens/cdna/Homo_sapiens.GRCh38.cdna.all.fa.gz
 kallisto index -i Homo_sapiens.GRCh38.cdna.all.kidx Homo_sapiens.GRCh38.cdna.all.fa.gz
-bash run_tr2g_gen Homo_sapiens.GRCh38.cdna.all.fa.gz
-kallisto bus -i Homo_sapiens.GRCh38.cdna.all.kidx -x 10Xv2 -t 2 -o kallisto_out pbmc4k_S1_L001_R1_001_1M.fastq.gz pbmc4k_S1_L001_R2_001_1M.fastq.gz
+bash run_tr2g_gen.sh Homo_sapiens.GRCh38.cdna.all.fa.gz
+kallisto bus -i Homo_sapiens.GRCh38.cdna.all.kidx -x 10Xv2 -t 2 -o kallisto_out pbmc4k_S1_L001_R1_001_400k.fastq.gz pbmc4k_S1_L001_R2_001_400k.fastq.gz
 bustools sort -t 2 -o kallisto_out/output.sort.bus kallisto_out/output.bus
 bustools text -o kallisto_out/output.sort.txt kallisto_out/output.sort.bus
 python busparser.py kallisto_out ./tr2g.txt 100 10000
