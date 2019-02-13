@@ -1,4 +1,4 @@
-# Bioinformatics Symposium, Thursday 14th, 2019
+# Bioinformatics Symposium, Thursday February 14th, 2019
 
 <br>
 Schedule<br>
