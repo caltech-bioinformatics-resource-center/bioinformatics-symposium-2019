@@ -1,6 +1,5 @@
-# Bioinformatics Symposium 2019
+# Bioinformatics Symposium, Thursday 14th, 2019
 
-Thursday, February 14th, 2019 <br>
 <br>
 Schedule<br>
 <br>
@@ -15,7 +14,7 @@ Break <br>
 <br>
 Afternoon hands-on workshop in the Morgan Library (2nd floor Kerckhoff) <br>
 <br>
-Tutors: Lior Pachter, Fan Gao, Eduardo Beltrame, Lambda Lu <br>
+Tutors: Lior Pachter, Páll Melsted, Fan Gao, Eduardo Beltrame, Lambda Lu <br>
 1:00pm – 1:30pm	Setup <br>
 1:30pm – 1:40pm	break <br>
 1:40pm – 2:15pm	Quantification and primary analysis <br>
