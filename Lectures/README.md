@@ -1,1 +1,1 @@
-Workshop training materials
+Lecture materials
