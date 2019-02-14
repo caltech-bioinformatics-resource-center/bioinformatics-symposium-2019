@@ -28,6 +28,5 @@ If you decide to use `fasterq-dump`, you can download the data with the command 
 
 Finally, to help you navigate the confusing and teacherous world of getting other people's data in bioinformatics (welcome!) below is a helpful diagram of how to find the sample SRA identifier, which is what you need to run `fastq-dump` or `fasterq-dump`. Get used to this gymnastics, being able to do it is like having a super power.
 
+![geo_to_sra](https://user-images.githubusercontent.com/12504176/52777648-270c7200-2ff9-11e9-9a1d-2b14b0a79300.png)
 
-
-![SRA_download](https://github.com/caltech-bioinformatics-resource-center/bioinformatics-symposium-2019/blob/master/Hands-on%20Part2%20PYTHON%20NOTEBOOK/GEO_to_SRA.png)
