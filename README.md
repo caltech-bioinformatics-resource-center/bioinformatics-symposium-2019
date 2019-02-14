@@ -5,11 +5,10 @@ Schedule<br>
 <br>
 Morning Lectures in Broad Auditorium (Room 100) <br>
 <br>
-9:00am – 9:30am	Lior Pachter (Overview and introduction) <br>
-9:30am – 10:00am	Lior Pachter (Pseudo-alignment for RNA-Seq analysis) <br>
+9:00am – 10:00am	Lior Pachter (Introduction) <br>
 Break <br>
-10:15am – 10:45am	Páll Melsted (Single-cell RNA-Seq processing and BUS format) <br>
-10:45am – 11:15am	Fan Gao (Benchmarks of kallisto bus and bustools) <br>
+10:15am – 11:00am	Páll Melsted (BUS format and single-cell RNA-seq processing) <br>
+11:00am – 11:30am	Fan Gao (Benchmarks of kallisto and bustools) <br>
 <br>
 <br>
 Afternoon hands-on workshop in the Morgan Library (2nd floor Kerckhoff) <br>
