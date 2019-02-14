@@ -53,6 +53,11 @@ A quick sanity check to catch errors is the number of reads aligned: typically t
 
 
 ### BUStools sort and text
+
+To use BUStools make sure that it is installed on your machine or that you can call the executable file from the terminal. Binaries are currently available for linux and mac at https://github.com/BUStools/bustools/releases. If you prefer to compile from source (harder), see https://github.com/BUStools/bustools for installation instructions.
+
+The ```output.bus``` is a binary file. To work with it, we first convert it to a `.txt` file. To produce the text file we first sort the ```output.bus``` file and save that sorted file as ```output.sorted.txt``` and then we convert the sorted file to a `.txt` file. We can sort and convert it to `.txt` with the `bustools sort` and `bustools text` commands, shown below as an example. 
+
 ```
 bustools sort -o ./bus_output/output.sorted.bus ./bus_output/output.bus
 ```
