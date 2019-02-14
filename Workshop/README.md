@@ -4,6 +4,8 @@ MacOS prerequisites for kallisto bus:
 * Xcode: install from app store
 * Xcode command line tool: See [this StackOverflow answer](https://stackoverflow.com/questions/52513927/installing-xcode-command-line-tools) to install
 
+R users: Access RStudio Server by bioinformatics.caltech.edu:8787 and use your guest ID and password. The R notebook, with instructions for installation and kallisto bus, can be found here: https://bustools.github.io/BUS_notebooks_R/10xv2.html
+
 # Cheatsheet: commands for kallisto and BUStools
 ### kallisto index
 Prior to running kallisto, it is necessary to build a kallisto index using the transcriptome of the species being analyzed. The index is like a lookup table that let's kallisto very quickly map which reads belong to which transcript. This index needs to be built only once for each species to be analyzed, given a k-mer size (kallisto default is 31, the maximum size). For example, if building the index for the mouse transcriptome downloaded from Ensembl, the folowing command would be used. 
