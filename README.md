@@ -1,4 +1,4 @@
-# Bioinformatics Symposium, February 14th, 2019
+# <a href="http://bioinformatics.caltech.edu/events/poster.pdf">Bioinformatics Symposium, February 14th, 2019</a>
 
 <br>
 Schedule<br>
